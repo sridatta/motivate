@@ -1,17 +1,37 @@
-body {
-  background-image: url("/img/153.jpg");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url("/img/153.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat:no-repeat;
+  /* ie bullshit */
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
+body {
+  padding: 10em;
 }
 
 p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    font-size: 80px;
-    color: white;
-    text-shadow:
-       -1px -1px 0 #000,  
-        1px -1px 0 #000,
-       -1px 1px 0 #000,
-       1px 1px 0 #000;
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+  letter-spacing: 1px;
+
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+  /*letter-spacing: 2px;*/
+  line-height: 1.4em;
+  font-weight: 300;
+  font-size: 4em;
+  color: rgba(255, 255, 255, 0);
+  -webkit-transition: all 1.6s ease-out;
 }
 
+p.move {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+}
