@@ -1,0 +1,17 @@
+body {
+  background-image: url("/img/153.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 80px;
+    color: white;
+    text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+       -1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
