@@ -29,14 +29,18 @@ p {
   font-size: 4em;
   color: rgba(255, 255, 255, 0);
   -webkit-font-smoothing: antialiased;
-  -webkit-transition: all 1.6s ease-out;
-  -moz-transition:    all 1.6s ease-out;
-  -o-transition:      all 1.6s ease-out;
-  -ms-transition:     all 1.6s ease-out;
-  transition:         all 1.6s ease-out;
+  -webkit-transition: color 1.6s ease-out, transform 1.6s ease-out;
+  -moz-transition:    color 1.6s ease-out, transform 1.6s ease-out;
+  -o-transition:      color 1.6s ease-out, transform 1.6s ease-out;
+  -ms-transition:     color 1.6s ease-out, transform 1.6s ease-out;
+  transition:         color 1.6s ease-out, transform 1.6s ease-out;
 }
 
 p.move {
   color: rgba(255, 255, 255, 0.85);
+  transform: translate(0, 20px);
+  transition-duration: 1s;
   -webkit-transform: translate(0, 20px);
+  -webkit-transition-duration: 1s;
+
 }
