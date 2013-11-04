@@ -42,10 +42,18 @@
     return result;
   }
 
-  var randomImage = images[pickRandomProperty(images)]
-  var randomQuote = quotes[pickRandomProperty(quotes)];
+  window.onload = function() {
+    var randomImage = images[pickRandomProperty(images)];
+    var randomQuote = quotes[pickRandomProperty(quotes)];
 
-  document.getElementById("quote").innerHTML = randomQuote;
+    // Set the image and quote
+    document.getElementsByTagName("html")[0].style.background = 'url("/img/'+ randomImage +'") no-repeat center center fixed';
+    // TODO (@Warpling): figure out why the above is overridding the background-size property in style.css
+    //                   making the following necessary.
+    document.getElementsByTagName("html")[0].style.backgroundSize = 'cover';
+    document.getElementById("quote").innerHTML = randomQuote;
+    // Start the CSS transtions
+    document.getElementById("quote").className = 'move';
+  }
 
-  document.body.style["backgroundImage"] = 'url("/img/'+ randomImage +'")'
 })()

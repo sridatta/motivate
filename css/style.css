@@ -1,17 +1,46 @@
-body {
-  background-image: url("/img/153.jpg");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  background: url("/img/153.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat:no-repeat;
+  /* ie bullshit to make sure the cover photo works */
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+}
+
+body {
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  padding: 10em;
 }
 
 p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
-    font-size: 80px;
-    color: white;
-    text-shadow:
-       -1px -1px 0 #000,  
-        1px -1px 0 #000,
-       -1px 1px 0 #000,
-       1px 1px 0 #000;
+  font-family: "Georgia", "Times New Roman", "Times", serif;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+  font-weight: 300;
+  font-size: 4em;
+  color: rgba(255, 255, 255, 0);
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: color 1.6s ease-out, transform 1.6s ease-out;
+  -moz-transition:    color 1.6s ease-out, transform 1.6s ease-out;
+  -o-transition:      color 1.6s ease-out, transform 1.6s ease-out;
+  -ms-transition:     color 1.6s ease-out, transform 1.6s ease-out;
+  transition:         color 1.6s ease-out, transform 1.6s ease-out;
 }
 
+p.move {
+  color: rgba(255, 255, 255, 0.85);
+  transform: translate(0, 20px);
+  transition-duration: 1s;
+  -webkit-transform: translate(0, 20px);
+  -webkit-transition-duration: 1s;
+
+}
