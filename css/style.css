@@ -27,6 +27,7 @@ p {
   line-height: 1.4em;
   font-weight: 300;
   font-size: 4em;
+  margin-top: -0.5em;
   color: rgba(255, 255, 255, 0);
   -webkit-font-smoothing: antialiased;
   -webkit-transition: color 1.6s ease-out, transform 1.6s ease-out;
