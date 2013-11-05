@@ -48,8 +48,16 @@
     "2272.jpg",
     "2284.jpg",
     "2310.jpg",
-    "2338.jpg",
-    "2346.jpg"
+    "2346.jpg",
+    "18.jpg",
+    "10.jpg",
+    "11.jpg",
+    "12.jpg",
+    "13.jpg",
+    "14.jpg",
+    "15.jpg",
+    "16.jpg",
+    "17.jpg"
   ]
 
   function pickRandomProperty(obj) {
