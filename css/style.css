@@ -6,18 +6,12 @@
 html {
   height: 100%;
   background: url("/img/153.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-  /* ie bullshit to make sure the cover photo works */
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
 }
 
 body {
   height: 100%;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.25);
   padding: 10em;
 }
 
@@ -27,20 +21,35 @@ p {
   line-height: 1.4em;
   font-weight: 300;
   font-size: 4em;
+  margin-top: -0.5em;
   color: rgba(255, 255, 255, 0);
-  -webkit-font-smoothing: antialiased;
-  -webkit-transition: color 1.6s ease-out, transform 1.6s ease-out;
-  -moz-transition:    color 1.6s ease-out, transform 1.6s ease-out;
-  -o-transition:      color 1.6s ease-out, transform 1.6s ease-out;
-  -ms-transition:     color 1.6s ease-out, transform 1.6s ease-out;
-  transition:         color 1.6s ease-out, transform 1.6s ease-out;
+
 }
 
-p.move {
+#quote {
+  -webkit-font-smoothing: antialiased;
+  transition: color 1.6s ease-out, transform 1.6s ease-out;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+
+#author {
+  font-size: 2em;
+  margin-top: 0.5em;
+  transition-duration: 1.8s;
+  transition-delay: 0.8s;
+  -webkit-transition-duration: 1.8s;
+}
+
+#quote.move {
   color: rgba(255, 255, 255, 0.85);
   transform: translate(0, 20px);
-  transition-duration: 1s;
   -webkit-transform: translate(0, 20px);
-  -webkit-transition-duration: 1s;
 
+}
+
+#author.move {
+  color: rgba(255, 255, 255, 0.75);
+  transform: translate(0, 40px);
+  -webkit-transform: translate(0, 40px);
 }
