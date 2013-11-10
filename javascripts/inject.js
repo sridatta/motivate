@@ -1,7 +1,7 @@
 (function(){
 
   var quotes = [{"quote":"Practice isn't the thing you do when you're good. It's the thing you do that makes you good.", "author":"Malcolm Gladwell"},
-{"quote":"You can never quit. Winners never quite, and quitters never win.", "author":"Ted Turner"},
+{"quote":"You can never quit. Winners never quit, and quitters never win.", "author":"Ted Turner"},
 {"quote":"Live long and prosper.", "author":"Spock"},
 {"quote":"It's a lack of faith that makes people afraid of meeting challengs, and I believed in myself.", "author":"Muhammad Ali"},
 {"quote":"I was born not knowing and have had only a little time to change that here and there.", "author":"Richard Feynman"},
