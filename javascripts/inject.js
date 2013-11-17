@@ -73,9 +73,7 @@
     var randomImage = images[pickRandomProperty(images)];
     var randomQuote = quotes[pickRandomProperty(quotes)];
 
-    document.getElementsByTagName('html')[0].style.background = 'url("/img/'+ randomImage +'") no-repeat center center fixed';
-    // TODO (@Warpling): figure out why the above is overridding the background-size property in style.css
-    document.getElementsByTagName('html')[0].style.backgroundSize = 'cover';
+    document.getElementsByTagName('html')[0].style.backgroundImage = 'url("/img/'+ randomImage +'")';
     document.getElementById('quote').innerHTML = randomQuote['quote'];
     if(randomQuote['author'])
       document.getElementById('author').innerHTML = "&mdash; " + randomQuote['author'];
