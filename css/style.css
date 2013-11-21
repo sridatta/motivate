@@ -42,14 +42,14 @@ p {
 }
 
 #quote.move {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   transform: translate(0, 20px);
   -webkit-transform: translate(0, 20px);
 
 }
 
 #author.move {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.8);
   transform: translate(0, 40px);
   -webkit-transform: translate(0, 40px);
 }
