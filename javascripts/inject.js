@@ -38,7 +38,27 @@
 {"quote":"Roads? Where we're going, we don't need roads.", "author":"Dr. Emmett Brown"},
 {"quote":"I skate to where the puck is going to be, not where it has been.", "author":"Wayne Gretzky"},
 {"quote":"Failure is the opportunity to begin again more intelligently.", "author":"Henry Ford"},
-{"quote":"Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.", "author":"Mother Teresa"}];
+{"quote":"Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.", "author":"Mother Teresa"},
+{"quote":"When you stop doing things for fun you might as well be dead", "author":"Ernest Hemingway"},
+{"quote":"Limit everything to the essential but do not remove the poetry", "author":"Dieter Rams"},
+{"quote":"There’s a way to do it better – find it.", "author":"Thomas A. Edison"},
+{"quote":"Never doubt that a small group of thoughtful, committed citizens can change the world. Indeed, It is the only thing that ever has.", "author":"Margaret Mead"},
+{"quote":"Good Design is as little design as possible.", "author":"Dieter Rams"},
+{"quote":"Give me 6 hours to chop a tree, I will spend the first 4 sharpening my axe.", "author":"Abe Lincoln"},
+// {"quote":"Life is a tragedy when seen in close-up, but a comedy in a long-shot.", "author":"Charlie Chaplin"},
+{"quote":"Sometimes you never realize the value of a moment until it becomes a memory", "author":"Dr. Seuss"},
+{"quote":"It is the mark of an educated mind, to entertain a thought without accepting it", "author":"Aristotle"},
+{"quote":"Another flaw in the human character is that everyone wants to build and nobody wants to do maintenance.","author":"Kurt Vonnegut"},
+{"quote":"A ship in harbor is safe, but that's not why ships are built."},
+{"quote":"there are 1,000 lessons in defeat. but only one in victory", "author":"Confucious"},
+{"quote":"Life isn't about finding yourself. Life is about creating yourself.", "author":"George Bernard Shaw"},
+{"quote":"But you don't become great by trying to be great. You become great by wanting to do something, and doing it so hard that you become great in the process.", "author":"Randall Munroe"},
+{"quote":"It's so hard to forget pain, but it's even harder to remember sweetness. We have no scar to show for happiness. We learn so little from peace.", "author":"Chuck Palahniuk"},
+{"quote":"In the depths of winter, I finally learned that within me there lay an invincible summer", "author":"Albert Camus"},
+{"quote":"Unless someone like you cares a whole awful lot, Nothing is going to get better. It's not.", "author":"Dr. Seuss"},
+{"quote":"Today you are you, this is truer than true. There is no one alive who is you-er than you.", "author":"Dr. Seuss"},
+{"quote":"Do nothing, say nothing, and be nothing, and you’ll never be criticized.", "author":"Elbert Hubbard"}
+];
 
   var images = [ 
     "153.jpg",
