@@ -50,7 +50,7 @@
 {"quote":"It is the mark of an educated mind, to entertain a thought without accepting it", "author":"Aristotle"},
 {"quote":"Another flaw in the human character is that everyone wants to build and nobody wants to do maintenance.","author":"Kurt Vonnegut"},
 {"quote":"A ship in harbor is safe, but that's not why ships are built."},
-{"quote":"there are 1,000 lessons in defeat. but only one in victory", "author":"Confucious"},
+{"quote":"There are 1,000 lessons in defeat, but only one in victory", "author":"Confucious"},
 {"quote":"Life isn't about finding yourself. Life is about creating yourself.", "author":"George Bernard Shaw"},
 {"quote":"But you don't become great by trying to be great. You become great by wanting to do something, and doing it so hard that you become great in the process.", "author":"Randall Munroe"},
 // {"quote":"It's so hard to forget pain, but it's even harder to remember sweetness. We have no scar to show for happiness.", "author":"Chuck Palahniuk"},
@@ -61,7 +61,7 @@
 {"quote":"The only thing necessary for the triumph of evil is for good men to do nothing", "author":"Edmund Burke"},
 // {"quote":"Rivers know this: there is no hurry. We shall get there some day.", "author":"Winnie the Pooh"}
 {"quote":"The bigger the mountain, the better the view."},
-{"quote":"Treat the Earth Well. It was not given to you by your parents, it was loaned to you by your children.","author":"Kenyan Proverb"},
+{"quote":"Treat the earth well. It was not given to you by your parents, it was loaned to you by your children.","author":"Kenyan Proverb"},
 {"quote":"No one can make you feel inferior without your consent.", "author":"Eleanor Roosevelt"}
 ];
 
