@@ -11,8 +11,9 @@ html {
 
 body {
   height: 100%;
-  background-color: rgba(0,0,0,0.25);
-  padding: 10em;
+  background-color: rgba(0,0,0,0.3);
+  padding: 18% 15%;
+  text-align: center;
 }
 
 p {
@@ -53,3 +54,31 @@ p {
   transform: translate(0, 40px);
   -webkit-transform: translate(0, 40px);
 }
+
+@media only screen and (max-width: 1024px) {
+
+  #quote {
+    font-size: 3em;
+  }
+
+  #author {
+    font-size: 1.8em;
+    transition-delay: 0;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  #quote {
+    font-size: 1.5em;
+  }
+
+  #author {
+    font-size: 1em;
+    transition-delay: 0;
+  }
+
+}
+
+
