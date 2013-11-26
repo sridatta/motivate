@@ -37,7 +37,7 @@
 {"quote":"If you want a thing done well, do it yourself.", "author":"Napoleon Bonaparte"},
 {"quote":"Roads? Where we're going, we don't need roads.", "author":"Dr. Emmett Brown"},
 {"quote":"I skate to where the puck is going to be, not where it has been.", "author":"Wayne Gretzky"},
-{"quote":"Failure is the opportunity to begin again more intelligently.", "author":"Henry Ford"},
+{"quote":"Failure is simply the opportunity to begin again, this time more intelligently.", "author":"Henry Ford"},
 {"quote":"Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.", "author":"Mother Teresa"},
 {"quote":"When you stop doing things for fun you might as well be dead", "author":"Ernest Hemingway"},
 {"quote":"Limit everything to the essential but do not remove the poetry", "author":"Dieter Rams"},
@@ -62,7 +62,8 @@
 // {"quote":"Rivers know this: there is no hurry. We shall get there some day.", "author":"Winnie the Pooh"}
 {"quote":"The bigger the mountain, the better the view."},
 {"quote":"Treat the earth well. It was not given to you by your parents, it was loaned to you by your children.","author":"Kenyan Proverb"},
-{"quote":"No one can make you feel inferior without your consent.", "author":"Eleanor Roosevelt"}
+{"quote":"No one can make you feel inferior without your consent.", "author":"Eleanor Roosevelt"},
+{"quote":"Intelligence plus character — that is the goal of true education.", "author":"Martin Luther King Jr."}
 ];
 
   var images = [ 
