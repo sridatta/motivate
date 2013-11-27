@@ -12,10 +12,24 @@ html {
 body {
   height: 100%;
   background-color: rgba(0,0,0,0.3);
-  padding: 15% 12%;
+  padding: 0 12%;
   font-family: "Georgia", "Times New Roman", "Times", serif;
   -webkit-font-smoothing: antialiased;
   text-align: center;
+}
+
+.centering-flex-box {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  flex-flow: flex-direction;
+  justify-content: center;
+  align-items: center;
+}
+
+container {
+  /* compensates for translations and move things up a bit */
+  margin-top: -50px;
 }
 
 quote {
@@ -52,7 +66,6 @@ author.move {
 }
 
 @media only screen and (max-width: 1024px) {
-
   quote {
     font-size: 3em;
   }
@@ -61,11 +74,9 @@ author.move {
     font-size: 1.8em;
     transition-delay: 0;
   }
-
 }
 
 @media only screen and (max-width: 480px) {
-
   quote {
     font-size: 1.5em;
   }
@@ -74,7 +85,4 @@ author.move {
     font-size: 1em;
     transition-delay: 0;
   }
-
 }
-
-
