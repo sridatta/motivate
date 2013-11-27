@@ -100,12 +100,12 @@
     var randomQuote = quotes[pickRandomProperty(quotes)];
 
     document.getElementsByTagName('html')[0].style.backgroundImage = 'url("/img/'+ randomImage +'")';
-    document.getElementById('quote').innerHTML = randomQuote['quote'];
+    document.getElementsByTagName('quote')[0].innerHTML = randomQuote['quote'];
     if(randomQuote['author'])
-      document.getElementById('author').innerHTML = "&mdash; " + randomQuote['author'] + " &mdash;";
+      document.getElementsByTagName('author')[0].innerHTML = "&mdash; " + randomQuote['author'] + " &mdash;";
     // Start the CSS transtions
-    document.getElementById('quote').className = 'move';
-    document.getElementById('author').className = 'move';
+    document.getElementsByTagName('quote')[0].className = 'move';
+    document.getElementsByTagName('author')[0].className = 'move';
   }
 
 })()
