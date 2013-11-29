@@ -11,7 +11,7 @@ html {
 
 body {
   height: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.2);
   padding: 0 12%;
   font-family: "Georgia", "Times New Roman", "Times", serif;
   -webkit-font-smoothing: antialiased;
@@ -29,7 +29,7 @@ body {
 
 container {
   /* compensates for translations and move things up a bit */
-  margin-top: -50px;
+  margin-top: -150px;
 }
 
 quote {
@@ -55,12 +55,14 @@ author {
 
 quote.move {
   color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 20px rgba(0,0,0,0.4);
   -webkit-transform: translate(0, 20px);
   transform: translate(0, 20px);
 }
 
 author.move {
   color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 20px rgba(0,0,0,0.3);
   -webkit-transform: translate(0, 40px);
   transform: translate(0, 40px);
 }
