@@ -1,8 +1,7 @@
 (function(){
 
   var quotes = [
-      {foo:"whatever the fuck i want"},
-      {quote:"Practice isn\'t the thing you do when you\'re good. It\'s the thing you do that makes you good.", author:"Malcolm Gladwell"},
+      {quote:"Practice isn't the thing you do when you're good. It's the thing you do that makes you good.", author:"Malcolm Gladwell"},
       {quote:"You can never quit. Winners never quit, and quitters never win.", author:"Ted Turner"},
       {quote:"Live long and prosper.", author:"Spock"},
       {quote:"It's a lack of faith that makes people afraid of meeting challengs, and I believed in myself.", author:"Muhammad Ali"},
@@ -43,7 +42,7 @@
       {quote:"Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.", author:"Mother Teresa"},
       {quote:"When you stop doing things for fun you might as well be dead", author:"Ernest Hemingway"},
       {quote:"Limit everything to the essential but do not remove the poetry", author:"Dieter Rams"},
-      {quote:"There\'s a way to do it better &ndash; find it.", author:"Thomas A. Edison"},
+      {quote:"There's a way to do it better &ndash; find it.", author:"Thomas A. Edison"},
       {quote:"Never doubt that a small group of thoughtful, committed citizens can change the world. Indeed, It is the only thing that ever has.", author:"Margaret Mead"},
       {quote:"Good design is as little design as possible.", author:"Dieter Rams"},
       {quote:"Give me six hours to chop a tree, I will spend the first four sharpening my axe.", author:"Abe Lincoln"},
@@ -55,11 +54,10 @@
       {quote:"There are 1,000 lessons in defeat, but only one in victory", author:"Confucious"},
       {quote:"Life isn't about finding yourself. Life is about creating yourself.", author:"George Bernard Shaw"},
       {quote:"But you don't become great by trying to be great. You become great by wanting to do something, and doing it so hard that you become great in the process.", author:"Randall Munroe"},
-      // {quote:"It's so hard to forget pain, but it's even harder to remember sweetness. We have no scar to show for happiness.", author:"Chuck Palahniuk"},
       {quote:"In the depths of winter, I finally learned that within me there lay an invincible summer", author:"Albert Camus"},
       {quote:"Unless someone like you cares a whole awful lot, Nothing is going to get better. It's not.", author:"Dr. Seuss"},
       {quote:"Today you are you, this is truer than true. There is no one alive who is you-er than you.", author:"Dr. Seuss"},
-      {quote:"Do nothing, say nothing, and be nothing, and you\'ll never be criticized.", author:"Elbert Hubbard"},
+      {quote:"Do nothing, say nothing, and be nothing, and you'll never be criticized.", author:"Elbert Hubbard"},
       {quote:"The only thing necessary for the triumph of evil is for good men to do nothing", author:"Edmund Burke"},
       {quote:"Rivers know this: there is no hurry. We shall get there some day.", author:"Winnie the Pooh"},
       {quote:"The bigger the mountain, the better the view."},
@@ -67,7 +65,7 @@
       {quote:"No one can make you feel inferior without your consent.", author:"Eleanor Roosevelt"},
       {quote:"Intelligence plus character &ndash; that is the goal of true education.", author:"Martin Luther King Jr."},
       {quote:"Stay hungry, stay foolish.", author:"Steve Jobs"},
-      {quote:"Simplicity is the ultimate sophistication"}
+      {quote:"Simplicity is the ultimate sophistication."}
     ];
 
   var images = [
@@ -79,7 +77,6 @@
     "2284.jpg",
     "2310.jpg",
     "2346.jpg",
-    // "18.jpg",
     "10.jpg",
     "11.jpg",
     "12.jpg",
@@ -90,18 +87,13 @@
     "17.jpg"
   ];
 
-  function pickRandomProperty(obj) {
-    var result;
-    var count = 0;
-    for (var prop in obj)
-      if (Math.random() < 1/++count)
-        result = prop;
-    return result;
+  function chooseOne(arr) {
+    return arr[parseInt((Math.random() * arr.length), 10)];
   }
 
   window.onload = function() {
-    var randomImage = images[pickRandomProperty(images)];
-    var randomQuote = quotes[pickRandomProperty(quotes)];
+    var randomImage = chooseOne(images);
+    var randomQuote = chooseOne(quotes);
 
     document.getElementsByTagName('html')[0].style.backgroundImage = 'url("/img/'+ randomImage +'")';
     document.getElementsByTagName('quote')[0].innerHTML = randomQuote.quote;
