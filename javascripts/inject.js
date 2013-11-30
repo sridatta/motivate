@@ -95,7 +95,7 @@
     var randomImage = chooseOne(images);
     var randomQuote = chooseOne(quotes);
 
-    document.getElementsByTagName('html')[0].style.backgroundImage = 'url("/img/'+ randomImage +'")';
+    document.getElementById('background-image').style.backgroundImage = 'url("/img/'+ randomImage +'")';
     document.getElementsByTagName('quote')[0].innerHTML = randomQuote.quote;
     if(randomQuote.author)
       document.getElementsByTagName('author')[0].innerHTML = "&mdash; " + randomQuote.author + " &mdash;";
